@@ -13,7 +13,7 @@ Provide a strict 2-sentence executive status report summarizing the current stat
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${process.env.NVIDIA_API_KEY}`
+        "Authorization": "Bearer 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"
       },
       body: JSON.stringify({
         model: "google/gemma-2-2b-it",
